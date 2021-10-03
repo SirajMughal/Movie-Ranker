@@ -1,1 +1,2 @@
 # Movie-Ranker
+This program uses IMDB's online database of movies and their ratings/number of reviews. The user inputs two integers, say k and m. The program's purpose is lists the m highest rated movies with at least k reviews. The program loops until at least one of the input numbers are 0. (The file MaxHeap.java contains an implementation of a priority queue based on a max heap NOT MY CODE). My program MovieRanker.java runs in time O(k lg m), k and m are described above.
